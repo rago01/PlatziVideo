@@ -64,6 +64,13 @@ body{
     color: white;
     font-size: 25px;
 }
+.categories__title{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    padding-left: 30px;
+    width: 100%;
+}
 .input{
     background-color: rgba(255,255,255,0);
     border: 2px solid white;
@@ -124,8 +131,16 @@ body{
     transition: 450ms opacity;
     padding: 10px;
     position: absolute;
-    top: 0;
+    top: 10;
     left: 0;
     right: 0;
     bottom: 0;
+}
+.carousel-item__details img{
+    width: 50px;
+}
+.carousel-item__details:hover{
+    opacity: 1;
+    display: flex;
+
 }
