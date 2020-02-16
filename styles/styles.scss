@@ -1,3 +1,10 @@
+//VARIABLES 
+$blanco : white;
+.center-element{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 body{
     font-family: 'Muli', sans-serif;
@@ -11,36 +18,38 @@ body{
     justify-content: space-between;
     align-items: center;
     top: 0px;
-}
-.header__img {
+    &__img{
     width: 200px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-.header__menu{
-  margin-right: 30px;
-}
-.header__menu ul {
-    display: none;
-    list-style: none;
-    padding: 0px;
-    position: absolute;
-    width: 100px;
-    text-align: right;
-    margin: 0px 0px 0px -14px ;
+      margin: {
+        left: 10px;
+        top: 10px;
+      }
+    }
+    &__menu{
+      margin-right: 30px;
+      ul{
+        display: none;
+        list-style: none;
+        padding: 0px;
+        position: absolute;
+        width: 100px;
+        text-align: right;
+        margin: 0px 0px 0px -14px ;
+      }
+      li a{
+        color: $blanco;
+        text-decoration: none;
+      }
+      li{
+        margin: 10px 0px;
+      }
+    }
 }
 .header__menu:hover ul, ul:hover{
     display:block;
 }
-.header__menu li{
-    margin:10px 0px;
-}
-.header__menu li a{
-    color: white;
-    text-decoration: none;
-}
 .header__menu li a:hover{
-    color: white;
+    color: $blanco;
     text-decoration: underline;
 }
 .header__menu--profile{
@@ -59,16 +68,14 @@ body{
 }
 
 .main{
-    display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend .center-element;
   flex-direction: column;
   height: 300px;
   border-radius: 0px 0px 40px 40px;
-}
-.main__title{
+  &__title{
     color: white;
     font-size: 25px;
+  }
 }
 .categories__title{
     color: white;
@@ -93,7 +100,7 @@ body{
     color: white;
 }
 .carousel {
-    overflow: scroll;
+    overflow: auto;
     padding-left: 30px;
     width: 100%;
     position: relative;
@@ -200,7 +207,6 @@ body{
 .footer a:hover{
     text-decoration: underline;
 }
-
 
 @media only screen and (max-width: 600px){
     .login__container{

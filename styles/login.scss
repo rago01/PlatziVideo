@@ -1,3 +1,4 @@
+$blanco : white;
 .login{
     background: linear-gradient(#E6AF2E,#E8063B);
     display: flex;
@@ -58,7 +59,7 @@
 }
 .login__container--register a{
     font-size: 16px;
-    color: white;
+    color: $blanco;
     font-weight: bold;
     text-decoration: none;
 }
