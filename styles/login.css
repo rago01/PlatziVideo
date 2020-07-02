@@ -1,5 +1,4 @@
 .login {
-  background: linear-gradient(#E6AF2E, #E8063B);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,9 +9,9 @@
 
 .login__container {
   background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 40px;
-  color: white;
+  color: black;
   padding: 60px 68px 40px;
   min-height: 700px;
   width: 300px;
@@ -31,20 +30,20 @@
 }
 
 .login__container--remember-me {
-  color: white;
+  color: black;
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
 
 .login__container--remember-me a {
-  color: white;
+  color: black;
   font-size: 14px;
   text-decoration: none;
 }
 
 .login__container--remember-me a:hover {
-  color: white;
+  color: black;
   font-size: 14px;
   text-decoration: underline;
 }
@@ -67,7 +66,7 @@
 
 .login__container--register a {
   font-size: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
@@ -82,7 +81,7 @@
   border-right: 0px;
   border-top: 0px;
   font-family: "Muli", sans-serif;
-  border-bottom: white 2px solid;
+  border-bottom:black 2px solid;
   margin-bottom: 20px;
   outline: none;
   padding: 0px 20px;
@@ -90,7 +89,7 @@
 }
 
 ::placeholder {
-  color: white;
+  color: black;
 }
 
 .button {
@@ -99,7 +98,7 @@
   font-family: "Muli", sans-serif;
   cursor: pointer;
   border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(182, 187, 111, 0);
   height: 50px;
   letter-spacing: 1px;
   margin: 10px 0px;
