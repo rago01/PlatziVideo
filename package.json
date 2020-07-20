@@ -1,0 +1,24 @@
+{
+  "name": "PlatziVideo",
+  "version": "1.0.0",
+  "description": "Funcionalidad para PlatziVideo",
+  "license": "MIT",
+  "author": "rago01",
+  "keywords": [
+    "platzi"
+  ],
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rago01/PlatziVideo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rago01/PlatziVideo/issues"
+  },
+  "homepage": "https://github.com/rago01/PlatziVideo#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
