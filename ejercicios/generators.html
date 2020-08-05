@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    //cuando se declara function* se crea un generador
+      function* simpleGenerator(){
+        console.log("Generator Start");
+        yield "Hola";
+        yield 2;
+        console.log("Generator end");
+      }
+
+      function* idMAker(){
+        let id = 1 ;
+        while(true){
+          reset = yield id;
+          if (reset) {
+            id = 1;
+          }else{
+            id = id+ 1;
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
