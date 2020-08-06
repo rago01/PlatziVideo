@@ -1,5 +1,5 @@
 enum Color {
-    Rojo,
+    Rojo = "Rojo",
     Verde = "Verde",
     Azul = "Azul"
 }
